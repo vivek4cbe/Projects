@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: UiPathDeploy@2
+  inputs:
+    orchestratorConnection: 'Nalashaa'
+    packagesPath: 'C:\ProgramData\UiPath\Packages'
+    folderName: 'C:\ProgramData\UiPath\Orch'
 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
