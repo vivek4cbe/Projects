@@ -23,4 +23,4 @@ steps:
   inputs:
     orchestratorConnection: 'Nalashaa'
     packagesPath: 'C:\ProgramData\UiPath\Packages'
-    folderName: 'C:\ProgramData\UiPath\Orch'
+    folderName: 'Default'
